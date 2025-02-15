@@ -4,9 +4,13 @@ function isSameDay(date1, date2){
 
 
 const events = [
-    {name: 'Project Submit', date: new Date('2025-10-11')},
+    {name: 'Project Submit', date: new Date(2025-10-11)},
     {name: 'Web Meeting', date: new Date('2025-10-12')},
     {name: 'Client Talk ', date: new Date('2025-10-13')}
 ]
 
 
+const today = new Date(2025-10-11);
+const todaysEvents = events.filter(event => isSameDay(event.date, today))
+
+console.log(todaysEvents)
