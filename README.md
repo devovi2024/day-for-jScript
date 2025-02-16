@@ -1,7 +1,7 @@
 # 📌 
 ---
 
-## 🚀 Features
+## 🚀 Explore
 
 1. Load Data from Local Storage or Use Default Categories  
 2. Save Tasks and Categories to Local Storage  
@@ -24,14 +24,4 @@
 19. Display Tasks with Color-Coded Category Indicators  
 20. Dynamically Update the UI When Tasks are Added or Filtered  
 
----
 
-## 📸 Screenshots
-
-![Screenshot 1](https://via.placeholder.com/600x300)  
-*Task list with color-coded categories*
-
-![Screenshot 2](https://via.placeholder.com/600x300)  
-*Filtering tasks based on time period*
-
----
