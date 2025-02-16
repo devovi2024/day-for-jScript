@@ -5,4 +5,4 @@ const defaultCategories = ["Technology", "Server", "Client", "Database"];
 
 localStorage.setItem('categories', JSON.stringify(defaultCategories));
 
-
+const data = JSON.parse(localStorage.getItem('categories'));
