@@ -6,6 +6,7 @@ localStorage.setItem('categories', JSON.stringify(defaultCategories));
 
 const data = JSON.parse(localStorage.getItem('categories'));
 data.push("Networking");
+console.log(data);
 
 localStorage.setItem('categories', JSON.stringify(data));
 
