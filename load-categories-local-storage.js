@@ -1,4 +1,10 @@
-const {localStorage, LocalStorage} = require('node-localstorage');
+const { LocalStorage } = require('node-localstorage');
 const localStorage = new LocalStorage('./storage');
 
-const defaultCategories = ["Technology", 'Server','Client','Database'];
+const defaultCategories = ["Technology", "Server", "Client", "Database"];
+
+localStorage.setItem('categories', JSON.stringify(defaultCategories));
+
+const data = JSON.parse(localStorage.getItem('categories'));
+
+console.log(data);
